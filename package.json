@@ -1,12 +1,12 @@
 {
   "name": "photo-chronicle-renamer",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "renames photos in create date order",
   "bin": {
-    "chronicle": "index.js"
+    "chronicle": "./bin/index"
   },
   "preferGlobal": "true",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
