@@ -1,0 +1,34 @@
+{
+  "name": "photo-chronicle-renamer",
+  "version": "0.0.1",
+  "description": "renames photos in create date order",
+  "bin": {
+    "chronicle": "index.js"
+  },
+  "preferGlobal": "true",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krylatov-pavel/photo-chronicle-renamer.git"
+  },
+  "keywords": [
+    "renamer",
+    "photo",
+    "chronicle"
+  ],
+  "author": "pavelk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krylatov-pavel/photo-chronicle-renamer/issues"
+  },
+  "homepage": "https://github.com/krylatov-pavel/photo-chronicle-renamer",
+  "dependencies": {
+    "async": "^0.9.0",
+    "dateutil": "^0.1.0",
+    "exif": "^0.4.0",
+    "minimist": "^1.1.1"
+  }
+}
